@@ -1,0 +1,37 @@
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+
+.heading-small {
+  font-size: 1.25rem;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+}
+
+.heading-big {
+  font-size: 1.75rem;
+}
+
+/* Colors */
+
+
+.bg-light-color {
+  background: linear-gradient(110.79050755798562deg, rgba(248, 104, 92,1) 5.911420204978038%,rgba(25, 64, 169,1) 95.95534407027817%);
+}
+
+.bg-dark-color {
+  background: linear-gradient(110.79050755798562deg, rgba(2, 27, 62,1) 5.911420204978038%,rgba(81, 119, 149,1) 95.95534407027817%);
+}
+
+/* Container */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+

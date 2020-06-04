@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Erdem Topcu</title>
+        <meta name="keywords" content="Erdem Topcu">
+        <meta name="description" content="Erdem Topcu">
+        <!-- font Google -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!-- font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Tablet-->
+        <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  </head>
+  <body id="theme" class="bg-light-color">
+      <header id="header">
+        <div class="container">
+          <nav id="navbar">
+          <h1 class="heading-small">Erdem Topcu</h1>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav> 
+        </div> 
+      </header>
+      <section id="home">
+        <div class="name text-center">
+          <h2 class="heading-big">Erdem Topcu</h2>
+          <p id="text">Computer Engineer</p>
+          <p id="theme-text">Change Color</p>
+          <label class="switch">
+            <input type="checkbox" id="changebg" onclick="theme()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </section>
+    
+      <section id="blog">
+        <h2 class="heading-big text-center">Blog</h2>
+        <article class="container">
+
+          <div class="item">
+            <h3>Şans ve çalışkanlık</h3>
+            <p class="text">Her bölümünü dört kulakla beklediğim bir podcast serisi var, adı How I Built This (<a href="https://open.spotify.com/show/6E709HRH7XaiZrMfgtNCun" class="cd eg ht hu hv hw" target="_blank" rel="noopener nofollow">link</a>). Belki ‘bunu nasıl yaptım/başardım’ diye çevirebiliriz. Sunucunun katılımcılara her bölümde sorduğu bir soru var; başarının ne kadarını çok çalışmana, ne kadarını şansa borçlusun? Bana kimse sormadı ama fikrimi belirteyim istedim. Ne de olsa burası benim çöplüğüm. <br /><br /> Şunu farkettim; yapılacak iş çok, işini kaliteli yapan insana inanılmaz derecede ihtiyaç var. Fakat insanlar bunu kendi lehine kullanmıyor. İş başvurularını değerlendiriyorsun, başvuranların özgemişini, LinkedIn profilini inceliyorsun, hiçbir sinyal alamıyorsun. Yüzde doksan beşten fazlasını mülakata bile çağırmıyorsun. Aralarında potansiyeli yüksek o kadar kişi var ki.. Ön elemeden geçenleri mülakat yapıyorsun. Adayın gözünün içine bakıyorsun güzel cevaplar ver de seni işe alalım, beraber birşeyler yapalım diye. Çocuk susmuş, başarılarını doğru düzgün anlatmıyor, kendini pazarlamıyor ya da pazarlayamıyor. Halbuki olay tamamen sinyal almak üzerine kurulu. <br><br><mark>İnsan kendi şansını yaratıyor</mark>. Bir doğrultuda kateddiğin mesafe, kendini geliştirme seviyen ve bunu karşı tarafa nasıl aktardığın hayatımın dönüm noktası diyeceğin o anları beraberinde getiriyor. Bir bakıyorsun hayat seni hayal bile edemediğin konumlara yükseltmiş. Geriye baktığında noktalar birleşiyor, eylemlerin anlam kazanıyor. İlerisi bulanık, bulanık ama umutlusun, ne de olsa elinden geleni yapıyorsun. Birisi şans verecek birilerini aradığında seni buluyor, senin başaracağına inanıyor. Sen de işin üstesinden geliyorsun, ne de olsa başarmaya hırslısın, zorluklarla yüzleşmeye alışmışsın. </p>
+
+            <p class="date">02.06.2020</p>
+          </div>
+
+          <div class="item">
+            <h3>İyi bir mühendisin 10 özelliği</h3>
+            <p class="text">Uber’de engineering manager (mühendis müdürü) olarak çalışan Dan Heller’ın kendi blogunda ‘Ten Principles for Growth as an Engineer’ başlığıyla paylaştığı yazıyı çok etkili buldum. Kendim defalarca okudum, sizlerinde bundan faydalanmasını istiyorum. Eğer ingilizcenin yeteri seviyedeyse orjinalini okumanızı tavsiye ediyorum.
+              Yazıyı beğendiğiniz ve faydalı bulduğunuz takdirde takım arkadaşlarınızla, sizinle çalışan mühendislerle paylaşmanızı öneririm. Bir mühendis çoğu zaman takımının ortalamasından daha ileriye gidemiyor. Etrafınızdakilerin gelişimine katkı sağlamak uzun vadede sizi de ileriye götürecek, bunu unutmamak lazım. Son olarak yazının aslına sadık kalmaya çalıştım, fakat bazı noktalarda kelime seçiminde insiyatif kullandım. İyi okumalar.
+              *** Çeviri:
+              Bir senedir müdürlük yaptığım mühendis geçen ay başka bir takıma geçiş yaptı. Birebir toplantılarımızdan birinde ona son zamanlarda projesini iyi yönettiğini söyledim. O da bana kendi kendini yönetme konusunda bir aydınlanma yaşadığını, çalıştığı projelerde başarıya ulaşmak için yaptığı işin her safhasını sahiplenmeye karar verdiğini, yalnızca kod yazmakla yetinmemeye başladığını söyledi. Bir yandan onun bu bakış açısından etkilendim, onun adına sevindim, bir yandan da kendime kızdım — uzun süredir genç mühendislerin yazılım işini öğrenebilmeleri için sahiplenmenin (ownership) en önemli şey olduğunu düşünüyorum fakat altımda çalışan mühendisin bu gerçeği kendine kendine, zor yoldan öğrenmesine sebep oldum. <br><br> </p>
+            <p class="date">02.06.2020</p>
+          </div>
+
+          <div class="item">
+            <h3>Koronavirüs sürecinde İK uzmanlarına 5 öneri</h3>
+            <p class="text">Koronavirüs salgını bir anda tüm dünyanın gündemine oturdu ve iş süreçleriyle ilgili hızla karar alınması gerekti. İnsan kaynakları proje danışmanı İpek Aral, bu salgın krizi sürecini verimli geçirmeleri için İK uzmanlarına 5 önemli öneride bulundu.
+
+              Pek çok işverenin kadrosunun büyük kısmını evden çalışmaya yönlendirdiği sıra dışı zor zamanlardayız. Koronavirüs pandemisinin yarattığı gerek ekonomik, gerekse psikolojik krize hiçbir şirket, hiçbir çalışan hazır değildi. Ancak oldu ve bizim bu süreçten kaynaklı şokumuzu bir an önce atlatıp, küçük de olsa günlük işlerimizden kazançlar yaratmaya odaklanmamız gerekti. Koronavirüsü krizi eninde sonunda bitecek ve bu küçük çabalar, bizim geleceğe olan inancımızı ve ümidimizi güçlendirecektir.
+              
+              Salgın krizi sonrasında karşı karşıya kalacağımız ekonomik durum her ne olursa olsun, işveren ve çalışanlar ortak akıl kullanarak, el ele verdikleri taktirde çarkın yeniden dönmesini en kısa sürede sağlayacaklardır.
+              
+              Peki, şirketlerimizdeki seçme yerleştirme süreçlerinden sorumlu insan kaynakları yönetici ve uzmanları olarak bu zorlu dönemde neler yapabiliriz?
+              
+              Öncelikli olarak pozitif kalmaya, olumlu düşünmeye özen göstermeliyiz. Her şeyin başının sağlık olduğunu unutmamalıyız. Sağlığımızı korumak için gerekli bütün önlemleri almalı, uyarıları ve yaptırımları takip etmeliyiz.
+              
+              İkinci adımda ekip arkadaşlarımızla sürekli bağlantıda olmalıyız. Birlikten sinerji ve güç doğar. Bu birliktelikler sıklıkla sanal toplantılarla gerçekleştirilebilir. Ofis ortamından eve taşınan görüntülü iş diyalogları, hepimizin hafızasında, kariyerinde unutulmaz ve keyifli tecrübeler olarak yerlerini alacaktır.
+              
+              Üçüncü olarak zorunluluktan kaynaklansa da esnek çalışma modelinin sıcak uygulamasını yapıyor olduğumuzu farkına varabiliriz. Bu farkındalık ile şirketlerimizde hangi pozisyonların teknoloji desteğiyle uzaktan çalışmaya müsait olduğunu analiz edebiliriz. Kriz sonrası dönemde seçme yerleştirme süreçlerimizde şirketimizde çalışma ortam ve koşullarını farklılaştırabilecek, geliştirebilecek yeni istihdam modelleri tasarlayabiliriz.
+              
+              Dördüncü nokta, geçmişten elimizde birikmiş, eksik kalan kayıt, veri işleri, süreç iyileştirme çalışmalarını tamamlamak olabilir. “Ah biraz vakit olsa neler yapacağız…” dediğimiz ne iş varsa, hepsini şu günlerde halledebilir, iş süreçlerimizi geliştirebilecek beyin fırtınaları düzenleyebiliriz.
+              
+              Beşinci konumuz ise mevcut pozisyon arayışlarımıza odaklanmak olabilir. Kriz sonrasında şirketlerimizdeki görüntünün ne olabileceğini tam kestiremesek bile, işlerin en kısa sürede düzene girmesi bu kriz günlerinde yapacağımız çalışmalarla olacaktır. Hali hazırda arayış içinde olduğumuz, ancak kriz nedeniyle dondurduğumuz aday havuzlarımızı bu sefer filtresiz, detaylı inceleyebilir, uygun adaylar ile uzun listelerimizi hazırlayabiliriz. Hatta işe alımı kesin yapılacak pozisyonların ön telefon görüşmelerini gerçekleştirerek, evlerinde büyük ihtimalle olumsuzluk içinde bekleyen adaylara umut ışığı olabiliriz.
+              
+              Unutmayalım ki, koronavirüsü krizi geçecek ve bizler şu günlerdeki emeklerimizle normal zamanlara daha hızlı dönebileceğiz.</p>
+            <p class="date">02.06.2020</p>
+          </div>
+
+          <div class="item">
+            <h3>Beter Ali</h3>
+            <p class="text">kelmangeeeeeeee kakooooo kakoooo şugarkeeeeee mageee kakoooo yandan geeeelll mage kakooooo kakoooo candan geeelll magee kakoooo mo kak kamiloooo biya westeee mo kak kamiloooo biya westeee me türbayyy dicaaa vilesgeee me haraaayy dicaaaa vilesgeeee voşdikeeelll mage kakoooo kakooo yandan geeeelll mage kakooo şugarkeeeee mageeee kakooo kakooooo candan geeell magee kakoooo gel mageeeee kakooo kakoooo şugarkeeee maneee kakooo yandan geeell mageee kakooo kakoooo candan geellll mane kakoooo mo kak kamiloooo biya westeee mo kak kamiloooo biya westeee me türbayyy dicaaa vilesgeee me haraaayy dicaaaa vilesgeeee voşdikeeelll mage kakoooo kakooo yandan geeeelll mage kakooo şugarkeeeee mageeee kakooo kakooooo candan geeell magee kakoooo?.</p>
+            <p class="date">02.06.2020</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="circular">
+        <h2 class="heading-big text-center">Circular</h2>
+        <div class="circular">
+          <div class="container-2">           
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>90<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="circular-text">Html</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>85<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="circular-text">Css</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>60<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="circular-text">JavaScript</h2>
+              </div>
+            </div>
+          </div></div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p class="copyright">Erdem Topcu © 2020 - Tüm Hakları Saklıdır.</p>
+        </div>
+      </footer>
+  
+      <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 00 || document.documentElement.scrollTop > 0) {
+            document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0.342)";
+          } else {
+            document.getElementById("header").style.backgroundColor = "rgba(0, 0, 0, 0)";
+          }
+        }
+
+        function theme() {
+          // Get the checkbox
+          var checkBox = document.getElementById("changebg");
+
+          var theme = document.getElementById("theme");
+          if (checkBox.checked == true){
+            theme.classList.remove("bg-light-color");
+            theme.classList.add("bg-dark-color");
+            document.getElementsByName(body).style.col
+          } else {
+            theme.classList.remove("bg-dark-color");
+            theme.classList.add("bg-light-color");
+          }
+        }
+
+        </script>
+
+    </body>
+</html>
+
